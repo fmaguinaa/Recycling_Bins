@@ -1,0 +1,184 @@
+body {
+background-color:#F2F2F2;
+font-family: verdana,arial;
+font-size: 14px;
+}
+
+a{
+color:#DF7401;
+text-decoration: none;
+}
+a:hover{
+color:#7f7f00;
+}
+
+#bienvenida{
+background-color: #F5F6CE;
+border: 1px solid #FFBF00;
+border-radius:5px;
+color:#FF8000;
+margin: 0px auto;
+padding:10px 0 0 0;
+text-align: center;
+
+}
+
+#menu{
+background: #00BFFF;
+border:1px solid #01A9DB;
+border-radius: 5px;
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 100px;
+height: 50px;
+margin:0 auto;
+width:50%;
+-webkit-border-radius: 5px;
+-webkit-border-bottom-right-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius: 5px;
+-moz-border-radius-bottomright: 100px;
+-moz-border-radius-bottomleft: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+color:#fff;
+cursor:pointer;
+font-size:15px;
+float:left;
+list-style: none;
+margin-left: 40px;
+
+}
+li:hover {
+color:#F4FA58;
+font-weight: bold;
+}
+
+#contenedor{
+background-color:#fff;
+border:1px solid #BDBDBD;
+margin: 20px auto;
+min-height: 400px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+width: 70%;
+padding: 10px;
+text-align: center;
+
+}
+.paginadoractivo{
+padding:5px 10px 5px 10px;
+font-family: “Trebuchet MS”, Arial, Helvetica, sans-serif;
+font-size:14px;
+background-color:#F5DAA0;
+color:#000000;
+border:0.5px solid #000000;
+cursor:pointer;
+}
+.paginador{
+padding:5px 10px 5px 10px;
+font-family: “Trebuchet MS”, Arial, Helvetica, sans-serif;
+font-size:14px;
+background-color: #E7F7FF;
+color:#000000;
+border:0.5px solid #333333;
+cursor:pointer;
+
+}
+.paginador:hover{
+padding:5px 10px 5px 10px;
+font-family: “Trebuchet MS”, Arial, Helvetica, sans-serif;
+font-size:14px;
+background-color:#73ADD6;
+color: white ;
+border:0.5px solid #333333;
+cursor:pointer;
+}
+.tablita
+{
+font-size: 12px;
+width:90%;
+text-align: left;
+margin:0 auto;
+border: 1px solid #E6E6E6;
+border-collapse: collapse;
+font-family: “Trebuchet MS”, Arial, sans-serif;
+color: #ffffff;
+}
+.tablita caption
+{
+font-size: 16px;
+font-weight: normal;
+padding: 5px;
+/* background: #73ADD6 url(‘../images/fon_perfil.gif’) repeat-x;*/
+border-right: 1px dotted #06C ;
+background: #084B8A;
+color: #FFFFFF;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.tablita th
+{
+font-size: 13px;
+font-weight: normal;
+padding: 5px;
+/* background: #73ADD6 url(‘../images/fon_perfil.gif’) repeat-x;*/
+border-right: 1px dotted #06C ;
+background: #084B8A;
+color: #FFFFFF;
+}
+.tablita td
+{
+padding: 4px;
+color: #086A87;
+
+}
+.tablita tfoot tr td
+{
+font-size: 12px;
+color: #ffffff;
+}
+.tablita tbody tr:hover td
+{
+/* background: #FCFDFE; */
+color:saddlebrown;
+background: #E0F8F7;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+    background-color: #565c33;
+    color: white;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+tr:hover {background-color: #f5f5f5}
+tr:nth-child(even) {background-color: #f2f2f2}
